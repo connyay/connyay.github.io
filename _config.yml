@@ -1,0 +1,24 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Connor Hindley
+tagline:          'Software Engineer'
+description:      'I want to make cool things for the web.'
+url:              http://connorhindley.com
+baseurl:          /
+
+author:
+  name:           'Connor Hindley'
+  url:            https://twitter.com/_connyay
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:           https://github.com/connyay
