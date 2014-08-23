@@ -13,10 +13,10 @@ title: Résumé
 
 #### 2. Technical Proficiency
 
-- Languages: JS, HTML/CSS, PHP, Ruby, Objective-C, Android, C++, and Assembler
-- DBs: MySQL/MariaDB, PostgreSQL, MongoDB, SQLite,
-- Systems: Unix, Linux, Windows, Mac OS, and z/OS
-- Version Control: Git, RTC, and TFS
+- **Languages:** JS, HTML/CSS, PHP, Ruby, Objective-C, Android, C++, and Assembler
+- **DBs:** MySQL/MariaDB, PostgreSQL, MongoDB, SQLite,
+- **Systems:** Unix, Linux, Windows, Mac OS, and z/OS
+- **Version Control:** Git, RTC, and TFS
 
 #### 3. Experience
 
@@ -27,17 +27,17 @@ August 2014 - Present
 
 **IBM - Web Developer**
 
-June 2012 - August 2014
+June 2012 - August 2014  
 Used HTML/CSS/JS to create, update, and enhance the web user interface of DOORS Next Generation. Used advanced javascript techniques with Dojo and AJAX.
 
 **T-Mobile - Retail Sales Associate**
 
-July 2009 - June 2012
+July 2009 - June 2012  
 Assisted customers with sales, service, and technical support. Worked in a commission environment and had monthly quotas that I would be held accountable for if not met.
 
 **Best Buy Mobile - Sales Consultant**
 
-June 2007 - July 2009
+June 2007 - July 2009  
 Provided complete mobile solutions to customers. Achieved monthly sales goals. Handled inventory stocking, merchandising, as well as organizing and cleaning the department.
 
 #### 4. Education
