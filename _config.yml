@@ -10,12 +10,14 @@ tagline:          'Software Engineer'
 description:      'I want to make cool things for the web.'
 url:              http://connorhindley.com
 baseurl:          /
+blogurl:          /blog/
 
 author:
   name:           'Connor Hindley'
   url:            https://twitter.com/_connyay
 
 paginate:         5
+paginate_path:    'blog/page:num'
 
 # Custom vars
 version:          2.1.0
