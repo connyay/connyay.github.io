@@ -45,7 +45,7 @@ Provided complete mobile solutions to customers. Achieved monthly sales goals. H
 
 **Northern Illinois University**
 
-May 2013
+May 2013  
 Bachelor of Computer Science.
 
 ### Achievements
