@@ -14,7 +14,7 @@ title: Résumé
 ### Technical Proficiency
 
 - **Languages:** JS, HTML/CSS, PHP, Ruby, Objective-C, Android, C++, and Assembler
-- **DBs:** MySQL/MariaDB, PostgreSQL, MongoDB, SQLite,
+- **DBs:** MySQL/MariaDB, PostgreSQL, MongoDB, SQLite
 - **Systems:** Unix, Linux, Windows, Mac OS, and z/OS
 - **Cloud Platforms:** Red Hat Openshift, IBM BlueMix, Heroku
 - **Version Control:** Git, RTC, and TFS
