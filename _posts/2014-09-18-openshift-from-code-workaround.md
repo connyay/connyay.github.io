@@ -3,7 +3,7 @@ layout: post
 title: A workaround for --from-code on openshift
 ---
 
-I have been unable to get the `--from-code` flag to work on openshift... I may be doing something incorrectly, but I am not sure. Everytime attempt I make results in 504 errors and an overall bad time.
+I have been unable to get the `--from-code` flag to work on openshift... I may be doing something incorrectly, but I am not sure. Every attempt I make results in 504 errors and an overall bad time.
 
 Here is what I am talking about:  
 `rhc create-app <app-name> "http://cartreflect-claytondev.rhcloud.com/reflect?github=connyay/openshift-node-diy" --from-code https://github.com/connyay/rh-labs-angular.git`
