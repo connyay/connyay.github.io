@@ -59,3 +59,6 @@ title: Hosting PencilBlue on OpenShift by Red Hat
 
 ## Demo
 A demo of PencilBlue running on Openshift can be found [here](https://pencilblue-connyay.rhcloud.com/article/hello-openshift)
+
+
+I hope you find this useful! If you have any questions feel free to reach out at [@_connyay](https://twitter.com/_connyay)
