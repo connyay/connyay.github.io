@@ -17,6 +17,7 @@ Prerequisites:
 1. Navigate to the directory you'd like to create your new blog in
 2. Create a new app on OpenShift with the following command: (replacing <name> with your desired application name)  
     **Note:** If desired, adding `-s` to the below command will automatically scale the application with traffic. This setting has to be set during application creation, and can not be changed.
+
 ```bash
 rhc create-app <name> "http://cartreflect-claytondev.rhcloud.com/reflect?github=connyay/openshift-node-diy" "http://cartreflect-claytondev.rhcloud.com/reflect?github=smarterclayton/openshift-redis-cart" mongodb-2.4
 ```
