@@ -9,7 +9,7 @@ title: Hosting PencilBlue on OpenShift by Red Hat
 2. Have installed the [rhc command line tools](https://developers.openshift.com/en/getting-started-client-tools.html)
 3. Have setup the rhc command line tools by running `rhc setup`
 4. Have added an ssh key via the [online console](https://openshift.redhat.com/app/console/settings) or the `rhc sshkey-add <name> <path to SSH key file>` command
-5. Have Mac / Linux :grimacing: (Not really, but Windows users will need to adjust some commands.)
+5. Have Mac / Linux (Not really, but Windows users will need to adjust some commands. :grimacing: )
 
 
 ## Let's get started!
