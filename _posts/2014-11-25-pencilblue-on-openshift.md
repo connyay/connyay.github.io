@@ -56,6 +56,9 @@ title: Hosting PencilBlue on OpenShift by Red Hat
 `curl https://gist.githubusercontent.com/connyay/76102b76413588f68d12/raw/setup.sh | bash`  
 {% gist connyay/76102b76413588f68d12 setup.sh %}
 
+## Troubleshooting
+If navigating to your app in the browser throws an error, then the first thing you'll want to do is check the logs:  
+`rhc tail <name>`
 
 ## Demo
 A demo of PencilBlue running on Openshift can be found [here](https://pencilblue-connyay.rhcloud.com/article/hello-openshift)
