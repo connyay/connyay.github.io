@@ -22,7 +22,7 @@ title: Hosting PencilBlue on OpenShift by Red Hat
     rhc create-app <name> "http://cartreflect-claytondev.rhcloud.com/reflect?github=connyay/openshift-node-diy" "http://cartreflect-claytondev.rhcloud.com/reflect?github=smarterclayton/openshift-redis-cart" mongodb-2.4
     ```
     - What is this command doing?
-        - Creating a new rhc app with the provided name.
+        - Creating a new OpenShift app with the provided name.
         - Using node.js via the [connyay/openshift-node-diy](https://github.com/connyay/openshift-node-diy) cartridge
         - Using redis via the [smarterclayton/openshift-redis-cart](https://github.com/smarterclayton/openshift-redis-cart) cartridge
         - Using the default OpenShift mongo cartridge
