@@ -46,11 +46,12 @@ title: Hosting PencilBlue on OpenShift by Red Hat
     {% gist connyay/76102b76413588f68d12 build %}
 10. Make the build action hook executable  
     `chmod +x .openshift/action_hooks/build`
-12. git add -> git commit -> git push  
+11. git add -> git commit -> git push  
     `git add -A && git commit -m 'Hello PencilBlue!' && git push origin master -f`
+12. Visit your new PencilBlue website at: `http://<your app name>-<your namespace>.rhcloud.com`
 
 
-## Prefer a shell script? Steps 4-12 can be completed by using this script
+## Prefer a shell script? Steps 4-11 can be completed by using this script
 (Only tested on Mac)  
 `curl https://gist.githubusercontent.com/connyay/76102b76413588f68d12/raw/setup.sh | bash`  
 {% gist connyay/76102b76413588f68d12 setup.sh %}
