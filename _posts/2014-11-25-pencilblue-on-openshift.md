@@ -3,7 +3,7 @@ layout: post
 title: Hosting PencilBlue on OpenShift by Red Hat
 ---
 
-Prerequisites:
+## Prerequisites:
 
 1. Have created an account with [OpenShift](https://www.openshift.com/app/account/new)
 2. Have installed the [rhc command line tools](https://developers.openshift.com/en/getting-started-client-tools.html)
