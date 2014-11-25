@@ -9,7 +9,7 @@ title: Hosting PencilBlue on OpenShift by Red Hat
 2. Have installed the [rhc command line tools](https://developers.openshift.com/en/getting-started-client-tools.html)
 3. Have setup the rhc command line tools by running `rhc setup`
 4. Have added an ssh key via the [online console](https://openshift.redhat.com/app/console/settings) or the `rhc sshkey-add <name> <path to SSH key file>` command
-5. Have Mac / Linux (Not really, but Windows users will need to adjust some commands. :grimacing: )
+5. Have Mac / Linux (Not really, but Windows users will need to adjust some commands. :grimacing:)
 
 
 ## Let's get started!
@@ -40,9 +40,9 @@ title: Hosting PencilBlue on OpenShift by Red Hat
     {% gist connyay/76102b76413588f68d12 config.js %}
 8. Add an `.openshift/action_hooks` directory  
     `mkdir -p .openshift/action_hooks`
-9. Create (or download) an .openshift build actionhook  
+9. Create (or download) an .openshift build action_hook  
     `vi .openshift/action_hooks/build` **or** `curl -o .openshift/action_hooks/build https://gist.githubusercontent.com/connyay/76102b76413588f68d12/raw/build`
-    Your `build` should look like this: 
+    Your `build` action_hook should look like this: 
     {% gist connyay/76102b76413588f68d12 build %}
 10. Make the build action hook executable  
     `chmod +x .openshift/action_hooks/build`
