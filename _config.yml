@@ -1,8 +1,5 @@
 # Dependencies
-markdown:         kramdown
-
-kramdown:
-  input:          GFM
+markdown:         redcarpet
 
 # Permalinks
 permalink:        pretty
