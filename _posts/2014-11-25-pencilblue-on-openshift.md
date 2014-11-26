@@ -3,8 +3,18 @@ layout: post
 title: Hosting PencilBlue on OpenShift by Red Hat
 ---
 
-## Prerequisites:
+## Intro
+**What is [PencilBlue](https://pencilblue.org)?**  
+> The first open source content management system to meet all the needs of a modern website.
 
+PencilBlue is a CMS built with modern technologies (Node.js, Mongo, and Angular) and has a lot of potential to shake things up. It is light, fast, and extremely flexible.
+
+**What is [OpenShift]((https://www.openshift.com/))?**  
+> OpenShift is an application platform in the cloud where application developers and teams can build, test, deploy, and run their applications.
+
+OpenShift manages your cloud infrastructure so all you have to worry about is development. Updating your application on OpenShift is as simple as `git push`.
+
+## Prerequisites
 1. Have created an account with [OpenShift](https://www.openshift.com/app/account/new)
 2. Have installed the [rhc command line tools](https://developers.openshift.com/en/getting-started-client-tools.html)
 3. Have setup the rhc command line tools by running `rhc setup`
@@ -13,10 +23,10 @@ title: Hosting PencilBlue on OpenShift by Red Hat
 
 
 ## Let's get started!
-
 1. Navigate to the directory you'd like to create your new blog in
-2. Create a new app on OpenShift with the following command: (replacing `<name>` with your desired application name)  
-    **Note:** If desired, adding `-s` to the below command will automatically scale the application with traffic. This setting has to be set during application creation, and can not be changed.
+2. Create a new app on OpenShift with the following command: (replacing `<name>` with your desired application name)
+
+    **Note:** If desired, adding `-s` to the below command will automatically scale the application with traffic. This setting **has to be set** during application creation, and **can not be changed**.
 
     ```bash
     rhc create-app <name> "http://cartreflect-claytondev.rhcloud.com/reflect?github=connyay/openshift-node-diy" "http://cartreflect-claytondev.rhcloud.com/reflect?github=smarterclayton/openshift-redis-cart" mongodb-2.4
@@ -35,13 +45,19 @@ title: Hosting PencilBlue on OpenShift by Red Hat
 6. Pull in master from PencilBlue  
     `git reset --hard upstream/master`
 7. Create (or download) a config.js file  
-    `vi config.js` **or** `curl -O https://gist.githubusercontent.com/connyay/76102b76413588f68d12/raw/config.js`
+    `vi config.js`  
+    **or**  
+    `curl -O https://gist.githubusercontent.com/connyay/76102b76413588f68d12/raw/config.js`
+
     Your `config.js` should look like this: 
     {% gist connyay/76102b76413588f68d12 config.js %}
 8. Add an `.openshift/action_hooks` directory  
     `mkdir -p .openshift/action_hooks`
-9. Create (or download) an .openshift build action_hook  
-    `vi .openshift/action_hooks/build` **or** `curl -o .openshift/action_hooks/build https://gist.githubusercontent.com/connyay/76102b76413588f68d12/raw/build`
+9. Create (or download) an .openshift build action\_hook  
+    `vi .openshift/action_hooks/build`  
+    **or**  
+    `curl -o .openshift/action_hooks/build https://gist.githubusercontent.com/connyay/76102b76413588f68d12/raw/build`
+
     Your `build` action_hook should look like this: 
     {% gist connyay/76102b76413588f68d12 build %}
 10. Make the build action hook executable  
@@ -61,7 +77,7 @@ If navigating to your app in the browser throws an error, then the first thing y
 `rhc tail <name>`
 
 ## Demo
-A demo of PencilBlue running on Openshift can be found [here](https://pencilblue-connyay.rhcloud.com/article/hello-openshift)
+A demo of PencilBlue running on Openshift can be found [here](https://pencilblue-connyay.rhcloud.com/article/hello-openshift).
 
 
 I hope you find this useful! If you have any questions feel free to reach out at [@_connyay](https://twitter.com/_connyay)
