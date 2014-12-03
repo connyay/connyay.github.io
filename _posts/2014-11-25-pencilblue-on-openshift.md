@@ -29,7 +29,7 @@ OpenShift manages your cloud infrastructure so all you have to worry about is de
     **Note:** If desired, adding `-s` to the below command will automatically scale the application with traffic. This setting **has to be set** during application creation, and **can not be changed**.
 
     ```bash
-    rhc create-app <name> "http://cartreflect-claytondev.rhcloud.com/reflect?github=connyay/openshift-node-diy" "http://cartreflect-claytondev.rhcloud.com/reflect?github=smarterclayton/openshift-redis-cart" mongodb-2.4
+    rhc create-app <name> http://tinyurl.com/OpenShiftNodeDIY http://tinyurl.com/OpenShiftRedisCart mongodb-2.4
     ```
     - What is this command doing?
         - Creating a new OpenShift app with the provided name.
