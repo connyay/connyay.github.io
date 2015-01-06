@@ -63,7 +63,7 @@ OpenShift manages your cloud infrastructure so all you have to worry about is de
 10. Make the build action hook executable  
     `chmod +x .openshift/action_hooks/build`
 11. git add -> git commit -> git push  
-    `git add -A && git commit -m 'Hello PencilBlue!' && git push origin master -f`
+    `git add -f config.js && git add -A && git commit -m 'Hello PencilBlue!' && git push origin master -f`
 12. Visit your new PencilBlue website at: ht<span>tp://</span>&lt;your app name&gt;-&lt;your namespace&gt;.rhcloud.com
 
 
