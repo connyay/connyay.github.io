@@ -76,8 +76,5 @@ OpenShift manages your cloud infrastructure so all you have to worry about is de
 If navigating to your app in the browser throws an error, then the first thing you'll want to do is check the logs:  
 `rhc tail <name>`
 
-## Demo
-A demo of PencilBlue running on Openshift can be found [here](https://pencilblue-connyay.rhcloud.com/article/hello-openshift).
-
 
 I hope you find this useful! If you have any questions feel free to reach out at [@_connyay](https://twitter.com/_connyay)
