@@ -24,7 +24,7 @@ title: Résumé
 **Red Hat - Software Engineer**
 
 August 2014 - Present  
-Building internal and external web applications for Global Support Services. Various projects in the customer portal to improve user experience. Applications are single page apps build with JS/HTML/CSS that consume REST APIs constructed with Node.js. 
+Building internal and external web applications for Global Support Services. Various projects in the customer portal to improve user experience. Applications are single page apps built with HTML/CSS/JS that consume REST APIs constructed with Node.js. 
 
 **IBM - Web Developer**
 
