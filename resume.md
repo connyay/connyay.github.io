@@ -16,7 +16,7 @@ title: Résumé
 - **Languages:** JS, HTML/CSS, PHP, Ruby, Objective-C, Android, C++, and Assembler
 - **DBs:** MySQL/MariaDB, PostgreSQL, MongoDB, SQLite
 - **Systems:** Unix, Linux, Windows, Mac OS, and z/OS
-- **Cloud Platforms:** Red Hat Openshift, IBM BlueMix, Heroku
+- **Cloud Platforms:** Red Hat OpenShift, IBM BlueMix, Heroku
 - **Version Control:** Git, RTC, and TFS
 
 ### Experience
@@ -24,7 +24,7 @@ title: Résumé
 **Red Hat - Software Engineer**
 
 August 2014 - Present
-
+Building internal and external web applications for Global Support Services. Various projects in the customer portal to improve user experience. Applications are single page apps build with JS/HTML/CSS that consume REST APIs constructed with Node.js. 
 
 **IBM - Web Developer**
 
