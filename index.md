@@ -8,7 +8,3 @@ I am a software engineer working at [Red Hat](http://redhat.com) in Raleigh, NC.
 I graduated from [Northern Illinois University](http://www.cs.niu.edu/) in May 2013.
 
 I am currently focusing on front-end development, but I have experience and interest in mobile and back-end development.
-
-I am obsessed with [Sriracha](http://www.huyfong.com/no_frames/sriracha.htm).
-
-
