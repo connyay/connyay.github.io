@@ -68,5 +68,3 @@ Participated in IBM's Master the Mainframe in 2010 and 2011. A part 1 winner in 
 
 Personal and professional references are available upon request.
 
-
-[Download PDF Résumé](http://connorhindley.com/chindley-resume.pdf)
