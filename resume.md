@@ -21,9 +21,14 @@ title: Résumé
 
 ### Experience
 
+**Tanium - Senior Software Engineer**
+
+October 2015 - Present  
+Paste gifs, read Slack, fix everyone else's bugs.
+
 **Red Hat - Software Engineer**
 
-August 2014 - Present  
+August 2014 - October 2015  
 Building internal and external web applications for Global Support Services. Various projects in the customer portal to improve user experience. Applications are single page apps built with HTML/CSS/JS that consume REST APIs constructed with Node.js. 
 
 **IBM - Web Developer**
